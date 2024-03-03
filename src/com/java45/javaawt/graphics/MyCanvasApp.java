@@ -1,6 +1,5 @@
 package com.java45.javaawt.graphics;
 
-import javax.swing.plaf.ColorUIResource;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -42,7 +41,6 @@ public class MyCanvasApp extends Frame {
                 g.fillOval(e.getX(), e.getY(), 10, 10);
             }
         });
-
         setTitle("Canvas Demo");
         setSize(400, 300);
         addWindowListener(new WindowAdapter() {
